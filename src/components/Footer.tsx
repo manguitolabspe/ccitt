@@ -19,8 +19,14 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
           <div className="space-y-10 col-span-1 md:col-span-1">
-            <div className="flex items-center space-x-4 cursor-pointer" onClick={() => handleLink('home')}>
-              <div className="w-16 h-16 rounded-[1.5rem] bg-white flex items-center justify-center font-black text-[#0056A4] text-2xl shadow-2xl border-b-4 border-[#E31B23]">C</div>
+            <div className="flex items-center space-x-4 cursor-pointer group" onClick={() => handleLink('home')}>
+              <div className="w-16 h-16 rounded-[1.5rem] bg-white flex items-center justify-center shadow-2xl border-b-4 border-[#E31B23] overflow-hidden p-1.5">
+                <img 
+                  src="https://i.postimg.cc/J7dqb7tb/favicon-ccitt-camara-comercio-industria-turismo-talara.png" 
+                  alt="Logo CCITT" 
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <div className="flex flex-col">
                 <span className="font-black text-3xl tracking-tighter leading-none">CCITT</span>
                 <span className="text-[10px] text-gray-500 uppercase font-black tracking-[0.2em] mt-1">Provincia de Talara</span>

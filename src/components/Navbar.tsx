@@ -44,10 +44,12 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, onOpenLogin })
             className="flex items-center space-x-2 md:space-x-3 group cursor-pointer"
             onClick={() => handleLinkClick('home')}
           >
-            <div className="flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-white shadow-xl border-t-2 border-[#E31B23]">
-              <div className="flex items-center justify-center w-7 h-7 md:w-10 md:h-10 rounded-lg md:rounded-xl border-2 border-[#0056A4] font-black text-[#0056A4] text-base md:text-xl group-hover:bg-[#0056A4] group-hover:text-white transition-all">
-                C
-              </div>
+            <div className="flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-white shadow-xl border-t-2 border-[#E31B23] overflow-hidden p-1 md:p-1.5">
+              <img 
+                src="https://i.postimg.cc/J7dqb7tb/favicon-ccitt-camara-comercio-industria-turismo-talara.png" 
+                alt="Logo CCITT" 
+                className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+              />
             </div>
             <div className="flex flex-col">
               <span className={`font-black text-xl md:text-2xl tracking-tighter leading-none ${scrolled || (currentPage !== 'home' && currentPage !== 'dashboard') ? 'text-[#0056A4]' : 'text-white'}`}>CCITT</span>

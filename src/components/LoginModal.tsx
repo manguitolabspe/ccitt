@@ -108,10 +108,12 @@ const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onClose, onLogin }) => 
           </button>
 
           <div className="text-center mb-8">
-             <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white mb-4">
-                <div className="flex items-center justify-center w-8 h-8 rounded-lg border-2 border-[#0056A4] font-black text-[#0056A4] text-lg">
-                  C
-                </div>
+             <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white mb-4 overflow-hidden p-2 shadow-xl">
+                <img 
+                  src="https://i.postimg.cc/J7dqb7tb/favicon-ccitt-camara-comercio-industria-turismo-talara.png" 
+                  alt="Logo CCITT" 
+                  className="w-full h-full object-contain"
+                />
              </div>
              <h2 className="text-2xl font-black text-white tracking-tighter mb-1">Portal Institucional</h2>
              <p className="text-gray-500 font-bold uppercase tracking-[0.2em] text-[8px]">Acceso Restringido — CCITT</p>

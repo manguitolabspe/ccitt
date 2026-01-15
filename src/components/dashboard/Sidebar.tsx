@@ -20,8 +20,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentTab, onTabChange, onLog
 
   return (
     <aside className="w-80 bg-slate-900/50 backdrop-blur-xl border-r border-white/5 p-10 flex flex-col hidden lg:flex">
-      <div className="flex items-center gap-4 mb-20">
-        <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center font-black text-[#0056A4] text-xl">C</div>
+      <div className="flex items-center gap-4 mb-20 group">
+        <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center overflow-hidden p-1.5 shadow-lg group-hover:scale-110 transition-transform">
+          <img 
+            src="https://i.postimg.cc/J7dqb7tb/favicon-ccitt-camara-comercio-industria-turismo-talara.png" 
+            alt="Logo CCITT" 
+            className="w-full h-full object-contain"
+          />
+        </div>
         <div className="flex flex-col">
           <span className="font-black text-xl tracking-tighter">Admin Console</span>
           <span className="text-[8px] uppercase font-black tracking-widest text-[#E31B23]">CCITT System V2</span>

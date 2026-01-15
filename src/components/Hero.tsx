@@ -17,9 +17,9 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent z-10"></div>
           <img 
-            src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&q=80&w=2000" 
-            alt="Talara Destino Inteligente"
-            className="w-full h-full object-cover opacity-40 scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
+            src="https://i.postimg.cc/FsVx4jvv/201201206_1735340239999742_130343622303742582_n.jpg" 
+            alt="Cámara de Comercio de Talara - Sede Institucional"
+            className="w-full h-full object-cover opacity-50 scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
           />
         </div>
 

@@ -26,7 +26,11 @@ const AboutView: React.FC = () => (
           </div>
           <div className="relative">
              <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#0056A4]/10 rounded-full blur-3xl"></div>
-             <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=1000" className="rounded-[3rem] shadow-2xl border-t-8 border-[#E31B23]" alt="Equipo CCITT" />
+             <img 
+               src="https://i.postimg.cc/FsVx4jvv/201201206_1735340239999742_130343622303742582_n.jpg" 
+               className="rounded-[3rem] shadow-2xl border-t-8 border-[#E31B23] w-full h-[500px] object-cover" 
+               alt="Sede Institucional CCITT" 
+             />
           </div>
         </div>
       </div>

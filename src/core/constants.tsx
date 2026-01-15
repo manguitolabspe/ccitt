@@ -13,12 +13,36 @@ export const COLORS = {
 };
 
 export const DISTRICTS = [
-  { name: 'Pariñas', description: 'Capital provincial y centro administrativo.', image: 'https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&q=80&w=600' },
-  { name: 'La Brea', description: 'Histórico distrito petrolero.', image: 'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&q=80&w=600' },
-  { name: 'Lobitos', description: 'Paraíso del surf y arquitectura.', image: 'https://images.unsplash.com/photo-1502680399488-ea23e021fe44?auto=format&fit=crop&q=80&w=600' },
-  { name: 'El Alto', description: 'Zona industrial con vistas al mar.', image: 'https://images.unsplash.com/photo-1444491741275-3747c53c99b4?auto=format&fit=crop&q=80&w=600' },
-  { name: 'Los Órganos', description: 'Turismo y avistamiento de ballenas.', image: 'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=600' },
-  { name: 'Máncora', description: 'Destino turístico internacional.', image: 'https://images.unsplash.com/photo-1544155106-2580ec7e2469?auto=format&fit=crop&q=80&w=600' },
+  { 
+    name: 'Pariñas', 
+    description: 'Capital provincial y centro administrativo.', 
+    image: 'https://i.postimg.cc/XJbPPgbk/DJI-0255-(4).jpg' 
+  },
+  { 
+    name: 'La Brea', 
+    description: 'Histórico distrito petrolero.', 
+    image: 'https://i.postimg.cc/Wb3BFb42/balconesweb.jpg' 
+  },
+  { 
+    name: 'Lobitos', 
+    description: 'Paraíso del surf y arquitectura.', 
+    image: 'https://i.postimg.cc/W4GVtzpp/atardecer-en-lobitos.jpg' 
+  },
+  { 
+    name: 'El Alto', 
+    description: 'Zona industrial con vistas al mar.', 
+    image: 'https://i.postimg.cc/Pr92cMbX/DJI-0554-standard-(3).jpg' 
+  },
+  { 
+    name: 'Los Órganos', 
+    description: 'Turismo y avistamiento de ballenas.', 
+    image: 'https://i.postimg.cc/xjFwfMyr/622500035.jpg' 
+  },
+  { 
+    name: 'Máncora', 
+    description: 'Destino turístico internacional.', 
+    image: 'https://i.postimg.cc/YqTB3Yh2/viaje-a-mancora-piura.jpg' 
+  },
 ];
 
 export const SERVICES: any[] = [
